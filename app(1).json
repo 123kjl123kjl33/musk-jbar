@@ -1,0 +1,62 @@
+{
+    "name": "Source Fahd",
+    "description": "- السورس اخر اصدار .",
+    "logo": "https://te.legra.ph/file/08cec0a2a844713e1624a.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Fallen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "- اكتب ايبي ايدي .",
+        "value":  "17698861",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "- اكتب ايبي هاش .",
+        "value": "b69aecfce02173110b437f4206f57306",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "- اكتب توكن البوت",
+        "value": "8116457306:AAGnKGE_is5sErnTkc11lEo9IuNkGKTBFKA",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "- اكتب ايدي المالك .",
+        "value": "5587153836",
+        "required": true
+      },
+      "SESSION": {
+        "description": "- كود بايروجرام .",
+        "value": "AgCIVfMAfCL9iI2ibUZ-a2-MrkJrc-gBFA9aMVG0TyvijJ8WIwOlivZrWUeit8DkfdRkmf9ZzriGifKSz1Z90z6u6W-MuHKhbyef3dH6_TkOd-vrdAgbwu96YmA5ZXqDgkecObGdJ8M-oNSKsuogVHeX6vDA_tfqNGcZgtLB-DoA30I5xIlCzu1Gw3oFF9KiB-YSm5DBUml8p2JMIO3ljvmwrcGkXPst26PQXehNq9ExkEFrujKXq0NWgvEXI2VlYDbsMK6iMnhfCyiUXlPO-SPsUXau6ISkYBBZRaUyHl8_pog47mDtTkeMQ3JHxSe3NUOdPYErXpzGIKjJcUxpksJN51DDfgAAAAGWFR-PAA",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "- ايدي المطور .",
+        "value": "5587153836",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "- قناة المطور .",
+        "value": "https://t.me/F_FF6F",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
